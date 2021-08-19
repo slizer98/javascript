@@ -4,38 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <h1>curso practico JavaScript</h1>
-        <p>Estos retos fueron desarrollados por Erick Villafuerte</p>
-    </header>
-    <section>
-        <nav>
-            <ul>
-                <ol>
-                    <li>
-                        <a href="./calcFiguras.html">Taller #1</a>
-                    </li>
-                    <li>
-                        <a href="./descuentos.html">Taller #2</a>
-                    </li>
-                    <li>
-                        <a href="./promedio.html">Taller #3</a>
-                    </li>
-                    <li>
-                        <a href="./mediana.html">Taller #4</a>
-                    </li>
-                    <li>
-                        <a href="./moda.html">Taller #5</a>
-                    </li>
-                    <li>
-                        <a href="./salarios.html">Taller #6</a>
-                    </li>
-                </ol>
-            </ul>
+    <header class="header">
+        <!-- <p>Estos retos fueron desarrollados por Erick Villafuerte</p> -->
+        <nav class="header__nav">
+            <div class="header__nav--img">
+                <img src="/javascript/img/logo.png" alt="">            
+            </div>
+            <div class="header__menu">
+                <a href="#">Inicio</a>
+                <a href="#talleres">Servicios</a>
+                <a href="#">Contaco</a>
+            </div>
         </nav>
+        <div class="burbuja">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
+    <section class="container">
+        <section class="container__media">
+            <div>
+                <h3>Curso</h3>
+                <h2>Practico</h2>
+                <h1>JavaScript</h1>
+            </div>
+            <div class="container__media--img">
+                <img src="./img/fig.png" alt="">
+            </div>
+        </section>
+        <section class="container__talleres">
+            <h2 id="talleres">Nuestros servicios</h2>
+            <nav class="container__talleres--nav">
+                <ul>
+                    <ol>
+                        <li class="container__talleres--nav-list">
+                            <a href="./calcFiguras.html">Perimetros y areas</a>
+                        </li>
+                        <li class="container__nav--list" >
+                            <a href="./descuentos.html">Porcentajes y desuentos</a>
+                        </li>
+                        <li class="container__nav--list" >
+                            <a href="./promedio.html">Calcular Promedio</a>
+                        </li>
+                        <li class="container__nav--list">
+                            <a href="./mediana.html">Calcular Mediana</a>
+                        </li>
+                        <li class="container__nav--list">
+                            <a href="./moda.html">Calcular Moda</a>
+                        </li>
+                        <li class="container__nav--list">
+                            <a href="./salarios.html">Salarios Top</a>
+                        </li>
+                    </ol>
+                </ul>
+            </nav>
+
+        </section>   
     </section>
+
+    <footer class="footer">
+        <ol>
+            <li>
+                <a href="#">Terminos y condiciones</a>
+            </li>
+            <li>
+                <a href="#">Ayuda</a>
+            </li>
+            <li>
+                <a href="#">Quejas </a>
+            </li>
+        </ol>
+    </footer>
 </body>
 </html>
