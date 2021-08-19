@@ -104,6 +104,12 @@ body{
     padding: 30px 38px 20px;
     min-height: 500px;
 }
+
+.container__talleres--nav li{
+    list-style-type: none;
+
+}
+
 .container__talleres--nav a{
     text-decoration: none;
     display: flex;
